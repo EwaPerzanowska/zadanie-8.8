@@ -10,28 +10,33 @@ function getTriangleArea (a,h) {
 
 	if (a <= 0) {
 
-	console.log('Nieprawidłowe dane');
+		console.log('Nieprawidłowe dane');
 
-}	else if (h <= 0 ) {
+	}	
 
-	console.log('Nieprawidłowe dane');
+	else if (h <= 0 ) {
 
-}
+		console.log('Nieprawidłowe dane');
 
-	var triangleArea = a*h/2;
+	}	
 
-	return triangleArea;
+	else {
+
+			var triangleArea = a*h/2;
+
+			return triangleArea;
+	}
 
 }
 
 var Triangle1Area = getTriangleArea (podstawa1,wysokość1)
 
-console.log( getTriangleArea(podstawa1,wysokość1) )
+console.log( Triangle1Area )
 
 var Triangle2Area = getTriangleArea (podstawa2, wysokość2) 
 
-console.log( getTriangleArea(podstawa2,wysokość2) )
+console.log( Triangle2Area )
 
 var Triangle3Area = getTriangleArea (podstawa3, wysokość3) 
 
-console.log( getTriangleArea(podstawa3,wysokość3) )
+console.log( Triangle3Area )
