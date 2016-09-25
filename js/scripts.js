@@ -1,42 +1,19 @@
-var podstawa1 = 2,
-	wysokość1 = 3,
-	podstawa2 = 4,
-	wysokość2 = 5,
-	podstawa3 = 6,
-	wysokość3 = 7;
+var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach.'
 
+var animal = 'Zielone słonie'
 
-function getTriangleArea (a,h) {
+var animal = animal.toUpperCase();
 
-	if (a <= 0) {
+console.log(animal)
 
-		console.log('Nieprawidłowe dane');
+var text = text.replace('Papugi', animal)
 
-	}	
+console.log(text);
 
-	else if (h <= 0 ) {
+console.log(text.length);
 
-		console.log('Nieprawidłowe dane');
+var halfText = text.slice(0,45)
 
-	}	
+console.log(halfText)
 
-	else {
-
-			var triangleArea = a*h/2;
-
-			return triangleArea;
-	}
-
-}
-
-var Triangle1Area = getTriangleArea (podstawa1,wysokość1)
-
-console.log( Triangle1Area )
-
-var Triangle2Area = getTriangleArea (podstawa2, wysokość2) 
-
-console.log( Triangle2Area )
-
-var Triangle3Area = getTriangleArea (podstawa3, wysokość3) 
-
-console.log( Triangle3Area )
+console.log(halfText.length)
