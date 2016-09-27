@@ -10,10 +10,14 @@ var text = text.replace('Papugi', animal)
 
 console.log(text);
 
-console.log(text.length);
+text.substring(text.length/2)
 
-var halfText = text.slice(0,45)
+console.log(text.substring(text.length/2))
 
-console.log(halfText)
+//console.log(text.length);
 
-console.log(halfText.length)
+//var halfText = text.slice(0,45)
+
+//console.log(halfText)
+
+//console.log(halfText.length)
